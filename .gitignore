@@ -4,6 +4,10 @@
 
 # DB 파일 (각자 로컬에서 loader.py로 생성)
 db/patent_agent.db
+db/checkpoint.db
+
+# data/results/case_01 llm 생성파일
+data/results/case_01
 
 # Python
 __pycache__/
@@ -23,7 +27,7 @@ __pycache__/
 Thumbs.db
 
 # 참고/내부 문서
-참고/
+임시/
 reference_files/
 docs/
 patent/
