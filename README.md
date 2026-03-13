@@ -1,5 +1,8 @@
-###
-아직 완성x 밑의 설명만으로 안될수있으니 코드직접 보고 수정 및 실행
+### 임시
+아직 완성x 밑의 설명만으로 안될수있으니 코드직접 보고 수정 및 실행 (필요없는 코드도 몇있음)
+dspy 사용때문에 tool 호출부분이 schemas, signatures, modules, tools 4개를 거처서 실행
+
+langraph, langfuse, 는 agent.py에서만 사용. 노드, 그래프(실행순서, 로직)같은거 수정하고 싶을때 저거만 건드리면 됨.
 
 # Patent Agent — 특허 심사대응 AI Agent
 
