@@ -1,26 +1,17 @@
-# 가상환경
+# 환경 설정
+.env
 .venv/
 
-# 환경변수 (API 키 등)
-.env
+# DB 파일 (각자 로컬에서 loader.py로 생성)
+db/patent_agent.db
 
-# Python 캐시
+# Python
 __pycache__/
-*.py[cod]
-*.pyo
-
-# pytest 캐시
+*.pyc
 .pytest_cache/
 
-# 참고/내부 문서
-참고/
-reference_files/
-
-# 원본 문서 (민감 정보 포함 가능)
-docs/
-patent/
-
-# uv 캐시
+# uv
+.python-version
 .uv/
 
 # IDE
@@ -30,3 +21,12 @@ patent/
 # OS
 .DS_Store
 Thumbs.db
+
+# 참고/내부 문서
+참고/
+reference_files/
+docs/
+patent/
+
+# optimized_modules/ 는 gitignore 하지 않음!
+# 최적화 결과를 팀원과 공유해야 하므로 반드시 커밋.

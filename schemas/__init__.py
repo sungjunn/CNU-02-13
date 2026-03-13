@@ -1,12 +1,21 @@
-# schemas 패키지 공개 인터페이스 — 외부에서 `from schemas import OfficeAction` 형태로 사용 가능하게 일괄 export
+"""Pydantic 모델 패키지 — 모든 Tool의 입출력 계약서."""
 
-from .office_action import OfficeAction, RejectionReason, PriorArt  # 의견제출통지서 관련 모델
-from .claim import Claim, ClaimElement                               # 청구항 관련 모델
-from .chart import ClaimChart, ElementMapping, DiffAnalysis, AmendedClaim, ResponseStrategy  # Chart/분석/보정 관련 모델
+from schemas.common import ClaimElement, MatchLevel, RejectionType
+from schemas.db_models import PatentDocument, OfficeAction, CaseRecord, EvalDataset
+from schemas.tool1 import NoticeAnalysisInput, NoticeAnalysisOutput, RejectionDetail
+from schemas.tool2 import ClaimParseInput, ClaimParseOutput, ParsedClaim
+from schemas.tool3 import ClaimChartInput, ClaimChartOutput, ElementMatch
+from schemas.tool4 import StrategyInput, StrategyOutput, RebuttalPoint
+from schemas.tool5 import AmendmentInput, AmendmentOutput, DescriptionBasis
+from schemas.tool6 import VersionRecord, VersionHistory
 
-# __all__: 이 패키지에서 공개적으로 사용 가능한 이름 목록 (from schemas import * 할 때 이것만 가져옴)
 __all__ = [
-    "OfficeAction", "RejectionReason", "PriorArt",
-    "Claim", "ClaimElement",
-    "ClaimChart", "ElementMapping", "DiffAnalysis", "AmendedClaim", "ResponseStrategy",
+    "ClaimElement", "MatchLevel", "RejectionType",
+    "PatentDocument", "OfficeAction", "CaseRecord", "EvalDataset",
+    "NoticeAnalysisInput", "NoticeAnalysisOutput", "RejectionDetail",
+    "ClaimParseInput", "ClaimParseOutput", "ParsedClaim",
+    "ClaimChartInput", "ClaimChartOutput", "ElementMatch",
+    "StrategyInput", "StrategyOutput", "RebuttalPoint",
+    "AmendmentInput", "AmendmentOutput", "DescriptionBasis",
+    "VersionRecord", "VersionHistory",
 ]

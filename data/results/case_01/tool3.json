@@ -1,0 +1,257 @@
+{
+  "charts": [
+    {
+      "our_claim_number": 1,
+      "prior_claim_number": 1,
+      "element_matches": [
+        {
+          "our_element": {
+            "element_id": "e1",
+            "text": "고무 매트릭스",
+            "label": "고무 매트릭스"
+          },
+          "prior_element": {
+            "element_id": "e1",
+            "text": "고무 매트릭스",
+            "label": "고무 매트릭스"
+          },
+          "match_level": "동일",
+          "reasoning": "Both elements describe a rubber matrix. The descriptions are substantially the same."
+        },
+        {
+          "our_element": {
+            "element_id": "e2",
+            "text": "고무 매트릭스 내에 배치된 보강코드",
+            "label": "보강코드 배치"
+          },
+          "prior_element": {
+            "element_id": "e2",
+            "text": "상기 고무 매트릭스 내에 매립된 보강코드",
+            "label": "보강코드"
+          },
+          "match_level": "동일",
+          "reasoning": "Both elements describe reinforcing cords embedded within the rubber matrix. '배치된' and '매립된' are synonymous in this context."
+        },
+        {
+          "our_element": {
+            "element_id": "e3",
+            "text": "보강코드의 단부를 고정하는 비드 와이어",
+            "label": "비드 와이어 고정"
+          },
+          "prior_element": {
+            "element_id": "e3",
+            "text": "상기 보강코드의 단부를 고정하는 복수의 비드 와이어",
+            "label": "비드 와이어"
+          },
+          "match_level": "동일",
+          "reasoning": "Both elements describe bead wires fixing the ends of reinforcing cords. '비드 와이어 복수' and '비드 와이어' are equivalent in function."
+        },
+        {
+          "our_element": {
+            "element_id": "e4",
+            "text": "비드 와이어 사이의 간격은 0.5mm 내지 2.0mm",
+            "label": "비드 와이어 간격"
+          },
+          "prior_element": {
+            "element_id": "e4",
+            "text": "인접 와이어 간 간격이 0.3mm 내지 3.0mm",
+            "label": "비드 와이어 간격"
+          },
+          "match_level": "유사",
+          "reasoning": "Both elements define a gap between the bead wires. Our range (0.5mm-2.0mm) is narrower and optimized compared to the prior art's broader range (0.3mm-3.0mm). The description context clarifies the criticality of the specific range in our invention."
+        },
+        {
+          "our_element": {
+            "element_id": "e5",
+            "text": "비드 와이어 표면의 인산염 처리층 형성",
+            "label": "인산염 처리층 형성"
+          },
+          "prior_element": null,
+          "match_level": "없음",
+          "reasoning": "The prior art does not disclose the phosphate coating layer on the bead wire surface. This is a key inventive step highlighted in the description context."
+        },
+        {
+          "our_element": {
+            "element_id": "e6",
+            "text": "인산염 처리층의 두께는 1μm 내지 5μm",
+            "label": "인산염 처리층 두께"
+          },
+          "prior_element": null,
+          "match_level": "없음",
+          "reasoning": "The prior art does not disclose the thickness of the phosphate coating layer (1μm-5μm). This thickness is critical to the invention’s functionality, as outlined in the detailed description."
+        }
+      ]
+    },
+    {
+      "our_claim_number": 1,
+      "prior_claim_number": 5,
+      "element_matches": [
+        {
+          "our_element": {
+            "element_id": "e1",
+            "text": "고무 매트릭스",
+            "label": "고무 매트릭스"
+          },
+          "prior_element": {
+            "element_id": "e2",
+            "text": "상기 복수의 비드 와이어의 외측에 고무 매트릭스 및 보강코드를 결합하는 단계",
+            "label": "고무 매트릭스 및 보강코드 결합 단계"
+          },
+          "match_level": "유사",
+          "reasoning": "선행특허는 고무 매트릭스와 함께 고무 매트릭스에 배치된 보강코드를 언급하고 있으며, 당사 청구항의 고무 매트릭스 구성과 관련성을 가짐. 다만, 선행특허는 고무 매트릭스 자체에 대한 구성은 명시적으로 언급하지 않음."
+        },
+        {
+          "our_element": {
+            "element_id": "e2",
+            "text": "고무 매트릭스 내에 배치된 보강코드",
+            "label": "보강코드 배치"
+          },
+          "prior_element": {
+            "element_id": "e2",
+            "text": "상기 복수의 비드 와이어의 외측에 고무 매트릭스 및 보강코드를 결합하는 단계",
+            "label": "고무 매트릭스 및 보강코드 결합 단계"
+          },
+          "match_level": "동일",
+          "reasoning": "당사의 고무 매트릭스 내에 배치된 보강코드 구성은 선행특허의 보강코드 및 고무 매트릭스 결합 단계와 기술적 의미가 동일함."
+        },
+        {
+          "our_element": {
+            "element_id": "e3",
+            "text": "보강코드의 단부를 고정하는 비드 와이어",
+            "label": "비드 와이어 고정"
+          },
+          "prior_element": null,
+          "match_level": "없음",
+          "reasoning": "선행특허는 비드 와이어를 배치하거나 고무 매트릭스와 보강코드를 결합하는 단계를 언급할 뿐, 비드 와이어 단부를 고정하는 비드 와이어에 대한 구체적인 언급이 없음."
+        },
+        {
+          "our_element": {
+            "element_id": "e4",
+            "text": "비드 와이어 사이의 간격은 0.5mm 내지 2.0mm",
+            "label": "비드 와이어 간격"
+          },
+          "prior_element": {
+            "element_id": "e1",
+            "text": "복수의 비드 와이어를 인접 와이어 간 간격이 0.3mm 내지 3.0mm가 되도록 배치하는 단계",
+            "label": "비드 와이어 배치 단계"
+          },
+          "match_level": "유사",
+          "reasoning": "선행특허는 비드 와이어 간격을 0.3mm 내지 3.0mm로 배치하는 단계를 포함하며, 당사의 0.5mm 내지 2.0mm 간격 범위와 수치 범위에서 일부 중복됨. 그러나 당사 발명은 특정 간격 범위의 기술적 의미에 대해 명확한 근거를 제시함."
+        },
+        {
+          "our_element": {
+            "element_id": "e5",
+            "text": "비드 와이어 표면의 인산염 처리층 형성",
+            "label": "인산염 처리층 형성"
+          },
+          "prior_element": null,
+          "match_level": "없음",
+          "reasoning": "선행특허는 비드 와이어 표면 처리에 대한 구체적인 개시가 없으며, 인산염 처리층에 대한 언급도 전혀 없음."
+        },
+        {
+          "our_element": {
+            "element_id": "e6",
+            "text": "인산염 처리층의 두께는 1μm 내지 5μm",
+            "label": "인산염 처리층 두께"
+          },
+          "prior_element": null,
+          "match_level": "없음",
+          "reasoning": "선행특허는 인산염 처리층의 두께에 대한 어떠한 내용도 포함하고 있지 않음."
+        }
+      ]
+    },
+    {
+      "our_claim_number": 4,
+      "prior_claim_number": 1,
+      "element_matches": [
+        {
+          "our_element": {
+            "element_id": "e1",
+            "text": "고무 매트릭스 내에 보강코드를 배치하는 단계",
+            "label": "보강코드 배치"
+          },
+          "prior_element": {
+            "element_id": "e1",
+            "text": "고무 매트릭스",
+            "label": "고무 매트릭스"
+          },
+          "match_level": "동일",
+          "reasoning": "당사 청구항 e1은 고무 매트릭스 내에 보강코드를 배치하는 단계를 기술하고, 선행특허 e1은 고무 매트릭스를 개시하고 있다. 이는 타이어의 기본 구성 요소에 대한 설명이므로 동일하다고 판단된다."
+        },
+        {
+          "our_element": {
+            "element_id": "e2",
+            "text": "비드 와이어의 표면에 인산염 처리를 수행하여 두께 1μm 내지 5μm의 인산염 처리층을 형성하는 단계",
+            "label": "비드 와이어 인산염 처리"
+          },
+          "prior_element": {
+            "element_id": "e2",
+            "text": "상기 고무 매트릭스 내에 매립된 보강코드",
+            "label": "보강코드"
+          },
+          "match_level": "유사",
+          "reasoning": "당사 청구항 e2는 비드 와이어 표면의 인산염 처리를 기술하고, 선행특허 e2는 고무 매트릭스 내에 매립된 보강코드를 개시한다. 인산염 처리는 비드 와이어 표면에 적용되는 기술이며, 보강코드를 포함하는 타이어 구조와 관련이 있다. 직접적인 기술 내용은 다르지만, 타이어 구성 요소 간의 상호작용 측면에서 유사하다고 판단된다."
+        },
+        {
+          "our_element": {
+            "element_id": "e3",
+            "text": "상기 인산염 처리층이 형성된 비드 와이어를 0.5mm 내지 2.0mm의 간격으로 배치하여 상기 보강코드의 단부를 고정하는 단계",
+            "label": "비드 와이어 및 보강코드 고정"
+          },
+          "prior_element": {
+            "element_id": "e3",
+            "text": "상기 보강코드의 단부를 고정하는 복수의 비드 와이어",
+            "label": "비드 와이어"
+          },
+          "match_level": "유사",
+          "reasoning": "당사 청구항 e3는 인산염 처리층이 형성된 비드 와이어를 특정 간격으로 배치하여 보강코드 단부를 고정하는 단계를 기술하고, 선행특허 e3는 비드 와이어를 통해 보강코드 단부를 고정하는 것을 개시한다. 두 구성 요소 모두 보강코드의 단부 고정이라는 동일한 기능을 수행하지만, 당사 청구항은 인산염 처리층을 형성하고 특정 간격(0.5mm~2.0mm)을 명시하는 추가적인 특징을 가지고 있어 유사하다고 판단된다. 또한, 선행특허 e4는 간격에 대한 언급이 있으며, 이는 당사 구성요소와 관련된 맥락을 가지고 있다."
+        }
+      ]
+    },
+    {
+      "our_claim_number": 4,
+      "prior_claim_number": 5,
+      "element_matches": [
+        {
+          "our_element": {
+            "element_id": "e1",
+            "text": "고무 매트릭스 내에 보강코드를 배치하는 단계",
+            "label": "보강코드 배치"
+          },
+          "prior_element": {
+            "element_id": "e2",
+            "text": "상기 복수의 비드 와이어의 외측에 고무 매트릭스 및 보강코드를 결합하는 단계",
+            "label": "고무 매트릭스 및 보강코드 결합 단계"
+          },
+          "match_level": "유사",
+          "reasoning": "당사 청구항 e1은 고무 매트릭스 내에 보강코드를 배치하는 단계를, 선행특허 e2는 고무 매트릭스와 보강코드를 비드 와이어 외측에 결합하는 단계를 기술합니다. 둘 다 고무, 보강코드 및 비드 와이어를 포함하지만, 배치 위치 및 순서가 다릅니다. 선행특허는 전체적인 결합 단계를 설명하는 반면, 당사 청구항은 보강코드 배치에 초점을 맞춥니다."
+        },
+        {
+          "our_element": {
+            "element_id": "e2",
+            "text": "비드 와이어의 표면에 인산염 처리를 수행하여 두께 1μm 내지 5μm의 인산염 처리층을 형성하는 단계",
+            "label": "비드 와이어 인산염 처리"
+          },
+          "prior_element": null,
+          "match_level": "없음",
+          "reasoning": "당사 청구항 e2는 비드 와이어 표면에 인산염 처리를 수행하는 단계로, 선행특허에는 비드 와이어 표면 처리와 관련된 내용이 없습니다. 상세 설명에서 인용발명 1은 비드 와이어 간격 제어 기술만 개시하며 표면 처리에 대한 구체적인 내용은 없습니다."
+        },
+        {
+          "our_element": {
+            "element_id": "e3",
+            "text": "상기 인산염 처리층이 형성된 비드 와이어를 0.5mm 내지 2.0mm의 간격으로 배치하여 상기 보강코드의 단부를 고정하는 단계",
+            "label": "비드 와이어 및 보강코드 고정"
+          },
+          "prior_element": {
+            "element_id": "e1",
+            "text": "복수의 비드 와이어를 인접 와이어 간 간격이 0.3mm 내지 3.0mm가 되도록 배치하는 단계",
+            "label": "비드 와이어 배치 단계"
+          },
+          "match_level": "유사",
+          "reasoning": "당사 청구항 e3은 인산염 처리된 비드 와이어를 특정 간격으로 배치하여 보강코드 단부를 고정하는 단계입니다. 선행특허 e1은 비드 와이어를 특정 간격(0.3-3.0mm)으로 배치하는 단계를 기술합니다. 간격 범위는 다르지만, 비드 와이어 배치 및 간격 조절에 대한 공통점을 가집니다. 당사 청구항은 인산염 처리된 비드 와이어를 사용하고, 보강코드 고정 목적을 명시합니다."
+        }
+      ]
+    }
+  ],
+  "summary": "전체 18개 구성요소 비교: 동일 5개, 유사 7개, 없음 6개."
+}
